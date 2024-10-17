@@ -1,0 +1,184 @@
+ *{
+    padding: 0px;
+    margin: 0px;
+font-family: Arial, Helvetica, sans-serif; }
+  #div1{
+    background-image:
+          linear-gradient(
+            to right,
+            #000 40%,
+            transparent 58%
+          ),
+          url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg);
+          
+        
+      }
+.cont{
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+#navbar{
+    height: 6vh;
+    background-color: black;
+    position: relative;
+    
+}
+html,body{
+  overflow-x: hidden;
+}
+#div2{
+   background-image: 
+   url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right.jpg),
+      linear-gradient(
+        to right,
+        #000 40%,
+        transparent 58%
+      );
+    
+} 
+div h1{
+  color: white;
+  padding-top:70px ;
+  font-size: 40px;
+  font-weight: 100;
+}
+div p{
+  color: white;
+  width: 797px;
+  font-size: 20.8px;
+}
+button{
+  padding: 14px 30px;
+  color: white;
+  width: 289px;
+  height: 48px;
+  background-color:#0f79af;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+h1,p,button{
+  margin-bottom: 30px;
+  margin-left: 40px;
+  
+  padding-right: 30px;
+} 
+ul li{
+  color: rgba(255, 255, 255, 0.677);
+  list-style-type: none;
+  display: inline-block;
+  margin-right:30px ;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  
+/* position: absolute; */
+}
+ul{
+  position: absolute;
+  top: -2.5px;
+  left: 650px;
+}
+#first_img{
+  /* margin-top: 15px; */
+  position: absolute;
+  top: 17px;
+  left: 455px;
+}
+#search{
+  position: absolute;
+  top: 13px;
+  right: 750px;
+}
+#Subscribe_now{
+  position: absolute;
+  right: -110px;
+  top: 20px;
+  font-size: 18px;
+  
+  letter-spacing: 0.7px;
+  color: rgba(255, 255, 255, 0.677);
+}
+#EN{
+  position: absolute;
+  right: -280px;
+  top: 20px;
+  font-size: 18px;
+  
+  letter-spacing: 0.7px;
+  color: rgba(255, 255, 255, 0.677);
+}
+#pro_pic{
+  position: absolute;
+  right: 430px;
+  top: 5px;
+}
+#div2 #cont{
+  position: relative;
+}
+#ppp{
+  position: absolute;
+  bottom: -640px;
+}
+.main_div div:hover{
+  box-shadow: 2px 1px 13px 5px black;
+}
+.main_div div{
+  width: 256px;
+  height: 176px;
+  border: 1px solid;
+}
+.main_div{
+  flex-wrap: wrap;
+  margin-top: 30px;
+  display: flex;
+   height: 750px; 
+   width: 790px;
+     margin-left: 925px; 
+     justify-content: space-between;
+     
+}
+footer img{
+   background-color:#222222;
+   margin: auto;
+   position: absolute;
+   top: 20px;
+   left: 45.5%;
+}
+footer{
+  height: 136px;
+  background-color:#222222;
+  position: relative;
+
+}
+#footer_ul{
+  display: inline-block;
+  position:absolute;
+  top: 35px;
+text-decoration: none;
+margin-left: 63px;
+
+}
+#footer_ul li{
+  list-style-type: none;
+  
+}
+#footer_ul li a{
+  text-decoration: none;
+  color:#79b8f3 ;
+  font-size: 15px;
+  font-weight: 100;
+  margin-right: 0px;
+}
+footer p{
+  position: absolute;
+  bottom: 0;
+  color: white;
+  font-size: 15px;
+  left: 718px;
+}
